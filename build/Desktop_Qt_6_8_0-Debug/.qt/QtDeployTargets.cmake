@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_apptestActivity_FILE /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity)
+set(__QT_DEPLOY_TARGET_apptestActivity_TYPE EXECUTABLE)

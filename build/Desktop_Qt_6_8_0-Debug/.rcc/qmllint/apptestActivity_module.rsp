@@ -1,0 +1,10 @@
+-I
+/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug
+-I
+/home/ashutosh/Qt/6.8.0/gcc_64/qml
+--resource
+/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qmake_testActivity.qrc
+--resource
+/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/apptestActivity_raw_qml_0.qrc
+--module
+testActivity
