@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-87fde3b704c2748dd686.json",
+					"jsonFile" : "directory-.-Debug-0cd484d79b28a9f33520.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -103,7 +103,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "apptestActivity::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-apptestActivity-Debug-2aa8c74d476abaa29e3a.json",
+					"jsonFile" : "target-apptestActivity-Debug-48b523e1c12f20f329f7.json",
 					"name" : "apptestActivity",
 					"projectIndex" : 0
 				},

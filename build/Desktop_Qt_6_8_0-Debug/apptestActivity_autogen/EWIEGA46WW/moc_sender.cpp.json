@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "Sender",
+            "lineNumber": 6,
+            "object": true,
+            "qualifiedClassName": "Sender",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "shoutSignal",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "sender.h",
+    "outputRevision": 68
+}
