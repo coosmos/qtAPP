@@ -1,0 +1,40 @@
+{
+    "classes": [
+        {
+            "className": "InternetExplorer",
+            "lineNumber": 6,
+            "object": true,
+            "qualifiedClassName": "InternetExplorer",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "query",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "browseRequested",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "Browse",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "internetexplorer.h",
+    "outputRevision": 68
+}
