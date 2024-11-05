@@ -1075,7 +1075,6 @@
 		"/home/ashutosh/Qt/Tools/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"/home/ashutosh/Qt/6.8.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/home/ashutosh/Qt/6.8.0/gcc_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
-		"/home/ashutosh/Qt/6.8.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/home/ashutosh/Qt/Tools/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"/home/ashutosh/Qt/6.8.0/gcc_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
 		"/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/qml_imports/apptestActivity_conf.cmake"
@@ -1084,7 +1083,21 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "apptestActivity_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/ashutosh/ashutosh_playground/testActivity/firefox.h",
+			"MU",
+			"EWIEGA46WW/moc_firefox.cpp",
+			null
+		],
+		[
+			"/home/ashutosh/ashutosh_playground/testActivity/userinteraction.h",
+			"MU",
+			"EWIEGA46WW/moc_userinteraction.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/mocs_compilation.cpp",
@@ -1158,10 +1171,7 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_apptestActivity_raw_qml_0.cpp",
 		"/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_qmake_testActivity.cpp",
-		"/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_Main_qml.cpp",
-		"/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_qmlcache_loader.cpp",
 		"/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestactivity_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : false,
@@ -1175,7 +1185,17 @@
 	"SOURCES" : 
 	[
 		[
+			"/home/ashutosh/ashutosh_playground/testActivity/firefox.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/ashutosh/ashutosh_playground/testActivity/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/ashutosh/ashutosh_playground/testActivity/userinteraction.cpp",
 			"MU",
 			null
 		]
@@ -1184,10 +1204,7 @@
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_apptestActivity_raw_qml_0.cpp",
 		"/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_qmake_testActivity.cpp",
-		"/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_Main_qml.cpp",
-		"/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_qmlcache_loader.cpp",
 		"/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestactivity_qmltyperegistrations.cpp"
 	],
 	"UIC_UI_FILES" : [],

@@ -47,13 +47,13 @@ cmake_ninja_workdir = /home/ashutosh/ashutosh_playground/testActivity/build/Desk
 #############################################
 # Order-only phony target for apptestActivity
 
-build cmake_object_order_depends_target_apptestActivity: phony || .qt/rcc/qrc_apptestActivity_raw_qml_0.cpp .qt/rcc/qrc_qmake_testActivity.cpp .rcc/qmlcache/apptestActivity_Main_qml.cpp .rcc/qmlcache/apptestActivity_Main_qml.cpp.aotstats .rcc/qmlcache/apptestActivity_qmlcache_loader.cpp apptestActivity_autogen apptestActivity_autogen/mocs_compilation.cpp apptestActivity_autogen/timestamp apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan apptestActivity_tooling apptestactivity_qmltyperegistrations.cpp meta_types/apptestActivity_json_file_list.txt meta_types/apptestActivity_json_file_list.txt.timestamp meta_types/qt6apptestactivity_debug_metatypes.json meta_types/qt6apptestactivity_debug_metatypes.json.gen testActivity/apptestActivity.qmltypes
+build cmake_object_order_depends_target_apptestActivity: phony || .qt/rcc/qrc_qmake_testActivity.cpp apptestActivity_autogen apptestActivity_autogen/mocs_compilation.cpp apptestActivity_autogen/timestamp apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan apptestactivity_qmltyperegistrations.cpp meta_types/apptestActivity_json_file_list.txt meta_types/apptestActivity_json_file_list.txt.timestamp meta_types/qt6apptestactivity_debug_metatypes.json meta_types/qt6apptestactivity_debug_metatypes.json.gen testActivity/apptestActivity.qmltypes
 
 build CMakeFiles/apptestActivity.dir/apptestActivity_autogen/mocs_compilation.cpp.o: CXX_COMPILER__apptestActivity_unscanned_Debug /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_apptestActivity
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/apptestActivity.dir/apptestActivity_autogen/mocs_compilation.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include -I/home/ashutosh/ashutosh_playground/testActivity -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include -isystem /home/ashutosh/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlMeta -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlWorkerScript -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtOpenGL
+  INCLUDES = -I/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include -I/home/ashutosh/ashutosh_playground/testActivity -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include -isystem /home/ashutosh/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlMeta -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlWorkerScript -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles/apptestActivity.dir
   OBJECT_FILE_DIR = CMakeFiles/apptestActivity.dir/apptestActivity_autogen
 
@@ -61,7 +61,7 @@ build CMakeFiles/apptestActivity.dir/main.cpp.o: CXX_COMPILER__apptestActivity_u
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/apptestActivity.dir/main.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include -I/home/ashutosh/ashutosh_playground/testActivity -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include -isystem /home/ashutosh/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlMeta -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlWorkerScript -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtOpenGL
+  INCLUDES = -I/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include -I/home/ashutosh/ashutosh_playground/testActivity -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include -isystem /home/ashutosh/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlMeta -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlWorkerScript -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles/apptestActivity.dir
   OBJECT_FILE_DIR = CMakeFiles/apptestActivity.dir
 
@@ -69,7 +69,7 @@ build CMakeFiles/apptestActivity.dir/apptestactivity_qmltyperegistrations.cpp.o:
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/apptestActivity.dir/apptestactivity_qmltyperegistrations.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include -I/home/ashutosh/ashutosh_playground/testActivity -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include -isystem /home/ashutosh/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlMeta -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlWorkerScript -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtOpenGL
+  INCLUDES = -I/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include -I/home/ashutosh/ashutosh_playground/testActivity -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include -isystem /home/ashutosh/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlMeta -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlWorkerScript -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles/apptestActivity.dir
   OBJECT_FILE_DIR = CMakeFiles/apptestActivity.dir
 
@@ -77,33 +77,25 @@ build CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_qm
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_qmake_testActivity.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include -I/home/ashutosh/ashutosh_playground/testActivity -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include -isystem /home/ashutosh/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlMeta -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlWorkerScript -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtOpenGL
+  INCLUDES = -I/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include -I/home/ashutosh/ashutosh_playground/testActivity -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include -isystem /home/ashutosh/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlMeta -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlWorkerScript -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles/apptestActivity.dir
   OBJECT_FILE_DIR = CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.qt/rcc
 
-build CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_qmlcache_loader.cpp.o: CXX_COMPILER__apptestActivity_unscanned_Debug /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_qmlcache_loader.cpp || cmake_object_order_depends_target_apptestActivity
+build CMakeFiles/apptestActivity.dir/firefox.cpp.o: CXX_COMPILER__apptestActivity_unscanned_Debug /home/ashutosh/ashutosh_playground/testActivity/firefox.cpp || cmake_object_order_depends_target_apptestActivity
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_qmlcache_loader.cpp.o.d
+  DEP_FILE = CMakeFiles/apptestActivity.dir/firefox.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include -I/home/ashutosh/ashutosh_playground/testActivity -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include -isystem /home/ashutosh/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlMeta -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlWorkerScript -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtOpenGL
+  INCLUDES = -I/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include -I/home/ashutosh/ashutosh_playground/testActivity -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include -isystem /home/ashutosh/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlMeta -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlWorkerScript -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles/apptestActivity.dir
-  OBJECT_FILE_DIR = CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache
+  OBJECT_FILE_DIR = CMakeFiles/apptestActivity.dir
 
-build CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_Main_qml.cpp.o: CXX_COMPILER__apptestActivity_unscanned_Debug /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_Main_qml.cpp || cmake_object_order_depends_target_apptestActivity
+build CMakeFiles/apptestActivity.dir/userinteraction.cpp.o: CXX_COMPILER__apptestActivity_unscanned_Debug /home/ashutosh/ashutosh_playground/testActivity/userinteraction.cpp || cmake_object_order_depends_target_apptestActivity
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_Main_qml.cpp.o.d
+  DEP_FILE = CMakeFiles/apptestActivity.dir/userinteraction.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include -I/home/ashutosh/ashutosh_playground/testActivity -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include -isystem /home/ashutosh/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlMeta -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlWorkerScript -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtOpenGL
+  INCLUDES = -I/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include -I/home/ashutosh/ashutosh_playground/testActivity -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -I/home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include -isystem /home/ashutosh/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlMeta -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlWorkerScript -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles/apptestActivity.dir
-  OBJECT_FILE_DIR = CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache
-
-build CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_apptestActivity_raw_qml_0.cpp.o: CXX_COMPILER__apptestActivity_unscanned_Debug /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_apptestActivity_raw_qml_0.cpp || cmake_object_order_depends_target_apptestActivity
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_apptestActivity_raw_qml_0.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include -I/home/ashutosh/ashutosh_playground/testActivity -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include -isystem /home/ashutosh/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlMeta -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtQmlWorkerScript -isystem /home/ashutosh/Qt/6.8.0/gcc_64/include/QtOpenGL
-  OBJECT_DIR = CMakeFiles/apptestActivity.dir
-  OBJECT_FILE_DIR = CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.qt/rcc
+  OBJECT_FILE_DIR = CMakeFiles/apptestActivity.dir
 
 
 # =============================================================================
@@ -113,7 +105,7 @@ build CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_ap
 #############################################
 # Link the executable apptestActivity
 
-build apptestActivity: CXX_EXECUTABLE_LINKER__apptestActivity_Debug CMakeFiles/apptestActivity.dir/apptestActivity_autogen/mocs_compilation.cpp.o CMakeFiles/apptestActivity.dir/main.cpp.o CMakeFiles/apptestActivity.dir/apptestactivity_qmltyperegistrations.cpp.o CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_qmake_testActivity.cpp.o CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_qmlcache_loader.cpp.o CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_Main_qml.cpp.o CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_apptestActivity_raw_qml_0.cpp.o | /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Quick.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6QmlMeta.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6QmlWorkerScript.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6QmlModels.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Qml.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Network.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6OpenGL.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Gui.so.6.8.0 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Core.so.6.8.0 || apptestActivity_autogen apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan apptestActivity_tooling
+build apptestActivity: CXX_EXECUTABLE_LINKER__apptestActivity_Debug CMakeFiles/apptestActivity.dir/apptestActivity_autogen/mocs_compilation.cpp.o CMakeFiles/apptestActivity.dir/main.cpp.o CMakeFiles/apptestActivity.dir/apptestactivity_qmltyperegistrations.cpp.o CMakeFiles/apptestActivity.dir/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_qmake_testActivity.cpp.o CMakeFiles/apptestActivity.dir/firefox.cpp.o CMakeFiles/apptestActivity.dir/userinteraction.cpp.o | /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Quick.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6QmlMeta.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6QmlWorkerScript.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6QmlModels.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Qml.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Network.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6OpenGL.so.6.8.0 /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Gui.so.6.8.0 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Core.so.6.8.0 || apptestActivity_autogen apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/ashutosh/Qt/6.8.0/gcc_64/lib:  /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Quick.so.6.8.0  /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6QmlMeta.so.6.8.0  /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6QmlWorkerScript.so.6.8.0  /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6QmlModels.so.6.8.0  /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Qml.so.6.8.0  /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Network.so.6.8.0  /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6OpenGL.so.6.8.0  /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Gui.so.6.8.0  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /home/ashutosh/Qt/6.8.0/gcc_64/lib/libQt6Core.so.6.8.0  -Wl,-rpath-link,/home/ashutosh/Qt/6.8.0/gcc_64/lib
   OBJECT_DIR = CMakeFiles/apptestActivity.dir
@@ -172,21 +164,9 @@ build all_qmllint_module: phony apptestActivity_qmllint_module
 
 
 #############################################
-# Utility command for module_apptestActivity_aotstats_targets
-
-build module_apptestActivity_aotstats_targets: phony CMakeFiles/module_apptestActivity_aotstats_targets .rcc/qmlcache/module_testActivity.aotstats .rcc/qmlcache/apptestActivity_Main_qml.cpp .rcc/qmlcache/apptestActivity_Main_qml.cpp.aotstats apptestactivity_qmltyperegistrations.cpp testActivity/apptestActivity.qmltypes apptestActivity_qmltyperegistration
-
-
-#############################################
-# Utility command for apptestActivity_tooling
-
-build apptestActivity_tooling: phony testActivity/Main.qml
-
-
-#############################################
 # Utility command for all_aotstats
 
-build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt module_apptestActivity_aotstats_targets
+build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt
 
 
 #############################################
@@ -264,7 +244,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 #############################################
 # Utility command for apptestActivity_autogen_timestamp_deps
 
-build apptestActivity_autogen_timestamp_deps: phony apptestActivity_qmlimportscan apptestActivity_tooling
+build apptestActivity_autogen_timestamp_deps: phony apptestActivity_qmlimportscan
 
 
 #############################################
@@ -276,7 +256,7 @@ build apptestActivity_autogen: phony CMakeFiles/apptestActivity_autogen apptestA
 #############################################
 # Custom command for meta_types/qt6apptestactivity_debug_metatypes.json.gen
 
-build meta_types/qt6apptestactivity_debug_metatypes.json.gen meta_types/qt6apptestactivity_debug_metatypes.json | ${cmake_ninja_workdir}meta_types/qt6apptestactivity_debug_metatypes.json.gen ${cmake_ninja_workdir}meta_types/qt6apptestactivity_debug_metatypes.json: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/libexec/moc meta_types/apptestActivity_json_file_list.txt || apptestActivity_autogen apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan apptestActivity_tooling
+build meta_types/qt6apptestactivity_debug_metatypes.json.gen meta_types/qt6apptestactivity_debug_metatypes.json | ${cmake_ninja_workdir}meta_types/qt6apptestactivity_debug_metatypes.json.gen ${cmake_ninja_workdir}meta_types/qt6apptestactivity_debug_metatypes.json: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/libexec/moc meta_types/apptestActivity_json_file_list.txt || apptestActivity_autogen apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan
   COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug && /home/ashutosh/Qt/6.8.0/gcc_64/libexec/moc -o /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/meta_types/qt6apptestactivity_debug_metatypes.json.gen --collect-json @/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/meta_types/apptestActivity_json_file_list.txt && /home/ashutosh/Qt/Tools/CMake/bin/cmake -E copy_if_different /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/meta_types/qt6apptestactivity_debug_metatypes.json.gen /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/meta_types/qt6apptestactivity_debug_metatypes.json
   DESC = Running moc --collect-json for target apptestActivity
   restat = 1
@@ -294,43 +274,16 @@ build apptestactivity_qmltyperegistrations.cpp testActivity/apptestActivity.qmlt
 #############################################
 # Custom command for .qt/rcc/qrc_qmake_testActivity.cpp
 
-build .qt/rcc/qrc_qmake_testActivity.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_qmake_testActivity.cpp: CUSTOM_COMMAND testActivity/qmldir .qt/rcc/qmake_testActivity.qrc /home/ashutosh/Qt/6.8.0/gcc_64/libexec/rcc || apptestActivity_autogen apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan apptestActivity_tooling
+build .qt/rcc/qrc_qmake_testActivity.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_qmake_testActivity.cpp: CUSTOM_COMMAND testActivity/qmldir .qt/rcc/qmake_testActivity.qrc /home/ashutosh/Qt/6.8.0/gcc_64/libexec/rcc || apptestActivity_autogen apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan
   COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug && /home/ashutosh/Qt/6.8.0/gcc_64/libexec/rcc --output /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_qmake_testActivity.cpp --name qmake_testActivity /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qmake_testActivity.qrc
   DESC = Running rcc for resource qmake_testActivity
   restat = 1
 
 
 #############################################
-# Custom command for .rcc/qmlcache/apptestActivity_qmlcache_loader.cpp
-
-build .rcc/qmlcache/apptestActivity_qmlcache_loader.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/apptestActivity_qmlcache_loader.cpp: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/libexec/qmlcachegen .rcc/qmlcache/apptestActivity_qml_loader_file_list.rsp .qt/rcc/qmake_testActivity.qrc .qt/rcc/apptestActivity_raw_qml_0.qrc || apptestActivity_autogen apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan apptestActivity_tooling
-  COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug && /home/ashutosh/Qt/6.8.0/gcc_64/libexec/qmlcachegen --resource-name qmlcache_apptestActivity -o /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_qmlcache_loader.cpp @/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_qml_loader_file_list.rsp
-  DESC = Generating .rcc/qmlcache/apptestActivity_qmlcache_loader.cpp
-  restat = 1
-
-
-#############################################
-# Custom command for .rcc/qmlcache/apptestActivity_Main_qml.cpp
-
-build .rcc/qmlcache/apptestActivity_Main_qml.cpp .rcc/qmlcache/apptestActivity_Main_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/apptestActivity_Main_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/apptestActivity_Main_qml.cpp.aotstats: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/libexec/qmlcachegen /home/ashutosh/ashutosh_playground/testActivity/Main.qml .qt/rcc/qmake_testActivity.qrc .qt/rcc/apptestActivity_raw_qml_0.qrc testActivity/apptestActivity.qmltypes testActivity/qmldir
-  COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug && /home/ashutosh/Qt/Tools/CMake/bin/cmake -E make_directory /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache && /home/ashutosh/Qt/6.8.0/gcc_64/libexec/qmlcachegen --bare --resource-path /qt/qml/testActivity/Main.qml -I /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug -I /home/ashutosh/Qt/6.8.0/gcc_64/qml -i /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/testActivity/qmldir --resource /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qmake_testActivity.qrc --resource /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/apptestActivity_raw_qml_0.qrc --dump-aot-stats "--module-id=testActivity(apptestActivity)" -o /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/apptestActivity_Main_qml.cpp /home/ashutosh/ashutosh_playground/testActivity/Main.qml
-  DESC = Generating .rcc/qmlcache/apptestActivity_Main_qml.cpp, .rcc/qmlcache/apptestActivity_Main_qml.cpp.aotstats
-  restat = 1
-
-
-#############################################
-# Custom command for .qt/rcc/qrc_apptestActivity_raw_qml_0.cpp
-
-build .qt/rcc/qrc_apptestActivity_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_apptestActivity_raw_qml_0.cpp: CUSTOM_COMMAND /home/ashutosh/ashutosh_playground/testActivity/Main.qml .qt/rcc/apptestActivity_raw_qml_0.qrc /home/ashutosh/Qt/6.8.0/gcc_64/libexec/rcc || apptestActivity_autogen apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan apptestActivity_tooling
-  COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug && /home/ashutosh/Qt/6.8.0/gcc_64/libexec/rcc --output /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_apptestActivity_raw_qml_0.cpp --name apptestActivity_raw_qml_0 /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/apptestActivity_raw_qml_0.qrc
-  DESC = Running rcc for resource apptestActivity_raw_qml_0
-  restat = 1
-
-
-#############################################
 # Custom command for apptestActivity_autogen/timestamp
 
-build apptestActivity_autogen/timestamp apptestActivity_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}apptestActivity_autogen/timestamp ${cmake_ninja_workdir}apptestActivity_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/libexec/moc || apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan apptestActivity_tooling
+build apptestActivity_autogen/timestamp apptestActivity_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}apptestActivity_autogen/timestamp ${cmake_ninja_workdir}apptestActivity_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/libexec/moc || apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan
   COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug && /home/ashutosh/Qt/Tools/CMake/bin/cmake -E cmake_autogen /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/apptestActivity_autogen.dir/AutogenInfo.json Debug && /home/ashutosh/Qt/Tools/CMake/bin/cmake -E touch /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/timestamp && /home/ashutosh/Qt/Tools/CMake/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /home/ashutosh/ashutosh_playground/testActivity /home/ashutosh/ashutosh_playground/testActivity /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/deps /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/d/2d0bda0fa4fedea3ac6d4f8f40df834b542510bc4a2bf2142a3b7a79b1d40f83.d
   DESC = Automatic MOC and UIC for target apptestActivity
   depfile = CMakeFiles/d/2d0bda0fa4fedea3ac6d4f8f40df834b542510bc4a2bf2142a3b7a79b1d40f83.d
@@ -341,7 +294,7 @@ build apptestActivity_autogen/timestamp apptestActivity_autogen/mocs_compilation
 #############################################
 # Custom command for meta_types/apptestActivity_json_file_list.txt
 
-build meta_types/apptestActivity_json_file_list.txt meta_types/apptestActivity_json_file_list.txt.timestamp | ${cmake_ninja_workdir}meta_types/apptestActivity_json_file_list.txt ${cmake_ninja_workdir}meta_types/apptestActivity_json_file_list.txt.timestamp: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/libexec/cmake_automoc_parser apptestActivity_autogen/timestamp || apptestActivity_autogen apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan apptestActivity_tooling
+build meta_types/apptestActivity_json_file_list.txt meta_types/apptestActivity_json_file_list.txt.timestamp | ${cmake_ninja_workdir}meta_types/apptestActivity_json_file_list.txt ${cmake_ninja_workdir}meta_types/apptestActivity_json_file_list.txt.timestamp: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/libexec/cmake_automoc_parser apptestActivity_autogen/timestamp || apptestActivity_autogen apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan
   COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug && /home/ashutosh/Qt/6.8.0/gcc_64/libexec/cmake_automoc_parser --cmake-autogen-cache-file /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/apptestActivity_autogen.dir/ParseCache.txt --cmake-autogen-info-file /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/apptestActivity_autogen.dir/AutogenInfo.json --output-file-path /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/meta_types/apptestActivity_json_file_list.txt --timestamp-file-path /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/meta_types/apptestActivity_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include
   DESC = Running AUTOMOC file extraction for target apptestActivity
   restat = 1
@@ -356,59 +309,35 @@ build CMakeFiles/apptestActivity_qmltyperegistration | ${cmake_ninja_workdir}CMa
 #############################################
 # Custom command for CMakeFiles/apptestActivity_qmllint
 
-build CMakeFiles/apptestActivity_qmllint | ${cmake_ninja_workdir}CMakeFiles/apptestActivity_qmllint: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/bin/qmllint /home/ashutosh/ashutosh_playground/testActivity/Main.qml .rcc/qmllint/apptestActivity.rsp || all_qmltyperegistrations apptestActivity_qmltyperegistration
-  COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity && /home/ashutosh/Qt/6.8.0/gcc_64/bin/qmllint @/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmllint/apptestActivity.rsp
+build CMakeFiles/apptestActivity_qmllint | ${cmake_ninja_workdir}CMakeFiles/apptestActivity_qmllint: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/bin/qmllint .rcc/qmllint/apptestActivity.rsp || all_qmltyperegistrations apptestActivity_qmltyperegistration
+  COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity && /home/ashutosh/Qt/Tools/CMake/bin/cmake -E echo Nothing\ to\ do\ for\ target\ apptestActivity_qmllint.
 
 
 #############################################
 # Custom command for CMakeFiles/apptestActivity_qmllint_json
 
-build CMakeFiles/apptestActivity_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/apptestActivity_qmllint_json: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/bin/qmllint /home/ashutosh/ashutosh_playground/testActivity/Main.qml .rcc/qmllint/apptestActivity_json.rsp || all_qmltyperegistrations apptestActivity_qmltyperegistration
-  COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity && /home/ashutosh/Qt/6.8.0/gcc_64/bin/qmllint @/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmllint/apptestActivity_json.rsp
+build CMakeFiles/apptestActivity_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/apptestActivity_qmllint_json: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/bin/qmllint .rcc/qmllint/apptestActivity_json.rsp || all_qmltyperegistrations apptestActivity_qmltyperegistration
+  COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity
 
 
 #############################################
 # Custom command for CMakeFiles/apptestActivity_qmllint_module
 
-build CMakeFiles/apptestActivity_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/apptestActivity_qmllint_module: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/bin/qmllint /home/ashutosh/ashutosh_playground/testActivity/Main.qml .rcc/qmllint/apptestActivity_module.rsp || all_qmltyperegistrations apptestActivity_qmltyperegistration
+build CMakeFiles/apptestActivity_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/apptestActivity_qmllint_module: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/bin/qmllint .rcc/qmllint/apptestActivity_module.rsp || all_qmltyperegistrations apptestActivity_qmltyperegistration
   COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity && /home/ashutosh/Qt/6.8.0/gcc_64/bin/qmllint @/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmllint/apptestActivity_module.rsp
-
-
-#############################################
-# Phony custom command for CMakeFiles/module_apptestActivity_aotstats_targets
-
-build CMakeFiles/module_apptestActivity_aotstats_targets | ${cmake_ninja_workdir}CMakeFiles/module_apptestActivity_aotstats_targets: phony .rcc/qmlcache/module_testActivity.aotstats || apptestActivity_qmltyperegistration
-
-
-#############################################
-# Custom command for .rcc/qmlcache/module_testActivity.aotstats
-
-build .rcc/qmlcache/module_testActivity.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_testActivity.aotstats: CUSTOM_COMMAND .rcc/qmlcache/apptestActivity_Main_qml.cpp.aotstats || apptestActivity_qmltyperegistration
-  COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug && /home/ashutosh/Qt/6.8.0/gcc_64/libexec/qmlaotstats aggregate /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/module_testActivity.aotstatslist /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/module_testActivity.aotstats
-  DESC = Generating .rcc/qmlcache/module_testActivity.aotstats
-  restat = 1
-
-
-#############################################
-# Custom command for testActivity/Main.qml
-
-build testActivity/Main.qml | ${cmake_ninja_workdir}testActivity/Main.qml: CUSTOM_COMMAND /home/ashutosh/ashutosh_playground/testActivity/Main.qml
-  COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity && /home/ashutosh/Qt/Tools/CMake/bin/cmake -E copy /home/ashutosh/ashutosh_playground/testActivity/Main.qml /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/testActivity/Main.qml
-  DESC = Copying Main.qml to /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/testActivity/Main.qml
-  restat = 1
 
 
 #############################################
 # Custom command for CMakeFiles/all_aotstats
 
-build CMakeFiles/all_aotstats | ${cmake_ninja_workdir}CMakeFiles/all_aotstats: CUSTOM_COMMAND .rcc/qmlcache/all_aotstats.txt || apptestActivity_qmltyperegistration module_apptestActivity_aotstats_targets
+build CMakeFiles/all_aotstats | ${cmake_ninja_workdir}CMakeFiles/all_aotstats: CUSTOM_COMMAND .rcc/qmlcache/all_aotstats.txt
   COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug && /home/ashutosh/Qt/Tools/CMake/bin/cmake -E cat /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/all_aotstats.txt
 
 
 #############################################
 # Custom command for .rcc/qmlcache/all_aotstats.aotstats
 
-build .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt | ${cmake_ninja_workdir}.rcc/qmlcache/all_aotstats.aotstats ${cmake_ninja_workdir}.rcc/qmlcache/all_aotstats.txt: CUSTOM_COMMAND || apptestActivity_qmltyperegistration module_apptestActivity_aotstats_targets
+build .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt | ${cmake_ninja_workdir}.rcc/qmlcache/all_aotstats.aotstats ${cmake_ninja_workdir}.rcc/qmlcache/all_aotstats.txt: CUSTOM_COMMAND
   COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug && /home/ashutosh/Qt/6.8.0/gcc_64/libexec/qmlaotstats aggregate /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/all_aotstats.aotstatslist /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/all_aotstats.aotstats && /home/ashutosh/Qt/6.8.0/gcc_64/libexec/qmlaotstats format /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/all_aotstats.aotstats /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/all_aotstats.txt
   DESC = Generating .rcc/qmlcache/all_aotstats.aotstats, .rcc/qmlcache/all_aotstats.txt
   restat = 1
@@ -423,7 +352,7 @@ build CMakeFiles/apptestActivity_qmlimportscan | ${cmake_ninja_workdir}CMakeFile
 #############################################
 # Custom command for .qt/qml_imports/apptestActivity_build.cmake
 
-build .qt/qml_imports/apptestActivity_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/apptestActivity_build.cmake: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/libexec/qmlimportscanner .qt/rcc/qmake_testActivity.qrc .qt/rcc/apptestActivity_raw_qml_0.qrc /home/ashutosh/ashutosh_playground/testActivity/Main.qml
+build .qt/qml_imports/apptestActivity_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/apptestActivity_build.cmake: CUSTOM_COMMAND /home/ashutosh/Qt/6.8.0/gcc_64/libexec/qmlimportscanner .qt/rcc/qmake_testActivity.qrc
   COMMAND = cd /home/ashutosh/ashutosh_playground/testActivity && /home/ashutosh/Qt/6.8.0/gcc_64/libexec/qmlimportscanner @/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/.qt/qml_imports/apptestActivity_build.rsp
   DESC = Running qmlimportscanner for apptestActivity
   restat = 1
@@ -432,7 +361,7 @@ build .qt/qml_imports/apptestActivity_build.cmake | ${cmake_ninja_workdir}.qt/qm
 #############################################
 # Phony custom command for CMakeFiles/apptestActivity_autogen
 
-build CMakeFiles/apptestActivity_autogen | ${cmake_ninja_workdir}CMakeFiles/apptestActivity_autogen: phony apptestActivity_autogen/timestamp || apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan apptestActivity_tooling
+build CMakeFiles/apptestActivity_autogen | ${cmake_ninja_workdir}CMakeFiles/apptestActivity_autogen: phony apptestActivity_autogen/timestamp || apptestActivity_autogen_timestamp_deps apptestActivity_qmlimportscan
 
 # =============================================================================
 # Target aliases.
@@ -445,7 +374,7 @@ build CMakeFiles/apptestActivity_autogen | ${cmake_ninja_workdir}CMakeFiles/appt
 #############################################
 # Folder: /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug
 
-build all: phony apptestActivity apptestActivity_tooling
+build all: phony apptestActivity
 
 # =============================================================================
 # Built-in targets

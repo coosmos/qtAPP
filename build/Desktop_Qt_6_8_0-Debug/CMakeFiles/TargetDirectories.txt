@@ -7,8 +7,6 @@
 /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/all_qmllint.dir
 /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/all_qmllint_json.dir
 /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/all_qmllint_module.dir
-/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/module_apptestActivity_aotstats_targets.dir
-/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/apptestActivity_tooling.dir
 /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/all_aotstats.dir
 /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/apptestActivity_qmlimportscan.dir
 /home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/edit_cache.dir
