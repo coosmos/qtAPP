@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "UserInteraction",
+            "lineNumber": 6,
+            "object": true,
+            "qualifiedClassName": "UserInteraction",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "query",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "InputTyped",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "userinteraction.h",
+    "outputRevision": 68
+}

@@ -10,6 +10,10 @@ public:
     explicit FireFox(QObject *parent = nullptr);
 
 signals:
+
+
+public slots:
+    void Browse(const QString &query);
 };
 
 #endif // FIREFOX_H
