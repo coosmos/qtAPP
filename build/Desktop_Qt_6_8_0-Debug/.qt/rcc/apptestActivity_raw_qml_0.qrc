@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="/qt/qml/testActivity/">
-    <file alias="Main.qml">/home/ashutosh/ashutosh_playground/testActivity/Main.qml</file>
+    <file alias="main.qml">/home/ashutosh/ashutosh_playground/testActivity/main.qml</file>
   </qresource>
 </RCC>
 

@@ -16,7 +16,11 @@ qt_add_qml_module(apptestActivity
     URI testActivity
     VERSION 1.0
     QML_FILES
-        Main.qml
+
+
+        SOURCES Sender.h Sender.cpp
+        SOURCES reciever.h reciever.cpp
+        QML_FILES main.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

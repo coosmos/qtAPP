@@ -1,5 +1,4 @@
 module testActivity
 typeinfo apptestActivity.qmltypes
 prefer :/qt/qml/testActivity/
-Main 1.0 Main.qml
 

@@ -1,0 +1,2 @@
+/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include/../EWIEGA46WW/moc_Sender.cpp.json
+/home/ashutosh/ashutosh_playground/testActivity/build/Desktop_Qt_6_8_0-Debug/apptestActivity_autogen/include/../EWIEGA46WW/moc_reciever.cpp.json

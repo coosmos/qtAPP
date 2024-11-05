@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-87fde3b704c2748dd686.json",
+					"jsonFile" : "directory-.-Debug-1f3b72fd47e94976bf45.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -28,9 +28,7 @@
 						9,
 						10,
 						11,
-						12,
-						13,
-						14
+						12
 					]
 				}
 			],
@@ -57,9 +55,7 @@
 						9,
 						10,
 						11,
-						12,
-						13,
-						14
+						12
 					]
 				}
 			],
@@ -68,28 +64,28 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_aotstats-Debug-d56585144eea39f7db8c.json",
+					"jsonFile" : "target-all_aotstats-Debug-312531b4ac4774d1df3c.json",
 					"name" : "all_aotstats",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint-Debug-998194d22fc0e39d1483.json",
+					"jsonFile" : "target-all_qmllint-Debug-525422d9e65294073577.json",
 					"name" : "all_qmllint",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint_json-Debug-20cbc7a7533250c8b9a4.json",
+					"jsonFile" : "target-all_qmllint_json-Debug-f0c2602a9911c7841f4b.json",
 					"name" : "all_qmllint_json",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint_module-Debug-5da264e0ed8fb6397648.json",
+					"jsonFile" : "target-all_qmllint_module-Debug-ad71c53f23830dfd92a4.json",
 					"name" : "all_qmllint_module",
 					"projectIndex" : 0
 				},
@@ -103,7 +99,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "apptestActivity::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-apptestActivity-Debug-2aa8c74d476abaa29e3a.json",
+					"jsonFile" : "target-apptestActivity-Debug-a4f4ca4de3add6cb288d.json",
 					"name" : "apptestActivity",
 					"projectIndex" : 0
 				},
@@ -117,7 +113,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "apptestActivity_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-apptestActivity_autogen_timestamp_deps-Debug-cacc707d331b55a78574.json",
+					"jsonFile" : "target-apptestActivity_autogen_timestamp_deps-Debug-4f71d2f3a2f64dd91c29.json",
 					"name" : "apptestActivity_autogen_timestamp_deps",
 					"projectIndex" : 0
 				},
@@ -131,21 +127,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "apptestActivity_qmllint::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-apptestActivity_qmllint-Debug-649670ceb67a1287e555.json",
+					"jsonFile" : "target-apptestActivity_qmllint-Debug-f93af51dd6451ae009c7.json",
 					"name" : "apptestActivity_qmllint",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "apptestActivity_qmllint_json::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-apptestActivity_qmllint_json-Debug-528b825d46d8e7e2805f.json",
+					"jsonFile" : "target-apptestActivity_qmllint_json-Debug-5e1be1d94e0781fb762d.json",
 					"name" : "apptestActivity_qmllint_json",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "apptestActivity_qmllint_module::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-apptestActivity_qmllint_module-Debug-b4d1f2825348b76a08cf.json",
+					"jsonFile" : "target-apptestActivity_qmllint_module-Debug-6559364c32b536775005.json",
 					"name" : "apptestActivity_qmllint_module",
 					"projectIndex" : 0
 				},
@@ -154,20 +150,6 @@
 					"id" : "apptestActivity_qmltyperegistration::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-apptestActivity_qmltyperegistration-Debug-e5552a9cb52744c5d591.json",
 					"name" : "apptestActivity_qmltyperegistration",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "apptestActivity_tooling::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-apptestActivity_tooling-Debug-b2e4111f7318f28b2313.json",
-					"name" : "apptestActivity_tooling",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "module_apptestActivity_aotstats_targets::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-module_apptestActivity_aotstats_targets-Debug-06bbc2cee42adbe1db39.json",
-					"name" : "module_apptestActivity_aotstats_targets",
 					"projectIndex" : 0
 				}
 			]
