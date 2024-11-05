@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "Firefox",
+            "lineNumber": 7,
+            "object": true,
+            "qualifiedClassName": "Firefox",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "Browse",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "firefox.h",
+    "outputRevision": 68
+}
